@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text('\$${(category.maxAmount-totalAmountSpent).toStringAsFixed(2)}/\$${category.maxAmount.toStringAsFixed(2)}',style: TextStyle(fontFamily: 'Montserrat',fontSize: 12.0,fontWeight: FontWeight.w600),),
               ],
             ),
-            SizedBox(height: 10.0),
+            SizedBox(height: 8.0),
         LayoutBuilder(
           builder: (BuildContext context, BoxConstraints constraints) {
             final double maxBarWidth = constraints.maxWidth;
