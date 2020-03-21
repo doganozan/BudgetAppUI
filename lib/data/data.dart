@@ -3,7 +3,6 @@ import 'package:budgetappui/models/category_model.dart';
 import 'package:budgetappui/models/expense_model.dart';
 
 final rand = Random();
-
 final List<double> weeklySpending = [
   rand.nextDouble() * 100,
   rand.nextDouble() * 100,
